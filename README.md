@@ -6,6 +6,7 @@ Para instalar el proyecto de forma local y funcioné de forma local, me instalé
 Después habilité los modulos para los host virtual y el rewrite_module, y creé un virtual host en el directorio C:\wamp\bin\apache\apache2.4.9\conf\extra en el fichero httpd-vhosts.conf
 puse este virtual host 
 
+```
 <VirtualHost *:80>
     ServerAdmin webmaster@dummy-host2.example.com
     DocumentRoot "C:\wamp\www\api-empleados\src\web"
@@ -21,6 +22,9 @@ puse este virtual host
 	Allow from all	
     </Directory>
 </VirtualHost>
-
+```
 y en host de system32 creé este
+
+```
 127.0.0.1		api-empleados.com
+```
