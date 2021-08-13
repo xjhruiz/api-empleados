@@ -1,0 +1,121 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.tableEmployees {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+a {
+  color: peru;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: brown;
+}
+
+.tbodyFetch a {
+  color: brown;
+}
+
+.detalles-agencia {
+  background-color: #f8f8f8;
+  border-top: 1px solid rgba(170, 172, 175, 0.5);
+  margin-bottom: 10px;
+}
+
+.sp,
+.sp-number {
+  margin-top: 8px;
+  font-size: 10pt;
+}
+
+.sp input {
+  margin-left: 5px;
+  display: inline-block;
+  width: 50%;
+  height: 25px;
+  padding: 4px 10px;
+  font-size: 12px;
+  line-height: 5.5;
+  border-radius: 5px;
+}
+
+select.miselectTabla {
+  display: inline-block;
+  width: auto;
+  line-height: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 5px;
+  padding: 5px 8px;
+}
+
+em {
+  margin-bottom: 10px;
+}
+
+.radius {
+  margin-left: 5px;
+  display: inline-block;
+  height: 25px;
+  font-size: 13px;
+  line-height: 5.5;
+  border-radius: 5px;
+  margin: 0auto;
+}
+
+.radius label {
+  margin-right: 25px;
+}
+
+i.fab {
+  font-size: 45px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+i.fab.fa-linkedin {
+  color: #0e76a8;
+}
+
+i.fab.fa-linkedin:hover {
+  color: #6db0cfe7;
+}
+
+i.fab.fa-github {
+  color: #171515;
+}
+
+i.fab.fa-github:hover {
+  color: #494646;
+}
+
+.my-title {
+  color: #721c24;
+  border-color: #f5c6cb;
+  display: flex;
+  justify-content: center;
+  line-height: 20px;
+  margin-top: .8rem;
+}
+
+
+.sp-number input {
+  display: inline-block;
+  width: 50%;
+  height: 25px;
+  padding: 4px 10px;
+  margin-left: 5px;
+}

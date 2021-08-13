@@ -1,0 +1,26 @@
+#
+GET http://api-empleados.com/api/getListEmployees
+
+
+
+
+##
+GET http://api-empleados.com/api/getListEmployeesById?idEmployee=10772
+
+
+
+#
+POST http://api-empleados.com/api/addNewEmployee
+Content-Type: application/json
+Accept: application/json
+
+{
+    "firstName": "Pepe",
+    "lastName": "Sanchez",
+    "birthName": "2021-10-01",
+    "gender": "M",
+    "deptNo": "d002",
+    "title": "Engineer",
+    "salary": "21000"
+
+}

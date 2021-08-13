@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "d1bb33b6-94cb-4e68-8350-4a5ae2b04bd8",
+		"name": "request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://api-empleados.com/api/addNewEmployee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Juan\",\r\n    \"lastName\": \"Perez\",\r\n    \"birthDate\": \"2001-09-11\",\r\n    \"gender\": \"M\",\r\n    \"deptNo\": \"d002\",\r\n    \"title\": \"Engineer\",\r\n    \"salary\": \"21000\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api-empleados.com/api/addNewEmployee",
+					"protocol": "http",
+					"host": [
+						"api-empleados",
+						"com"
+					],
+					"path": [
+						"api",
+						"addNewEmployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api-empleados.com/api/getListEmployees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api-empleados.com/api/getListEmployees",
+					"protocol": "http",
+					"host": [
+						"api-empleados",
+						"com"
+					],
+					"path": [
+						"api",
+						"getListEmployees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api-empleados.com/api/getListEmployeesById?idEmployee=11009",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api-empleados.com/api/getListEmployeesById?idEmployee=11009",
+					"protocol": "http",
+					"host": [
+						"api-empleados",
+						"com"
+					],
+					"path": [
+						"api",
+						"getListEmployeesById"
+					],
+					"query": [
+						{
+							"key": "idEmployee",
+							"value": "11009"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
