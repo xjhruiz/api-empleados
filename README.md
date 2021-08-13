@@ -28,3 +28,10 @@ y en host de system32 creé este
 ```
 127.0.0.1		api-empleados.com
 ```
+
+<p align="left" >
+Para cualquier cosa que me puedan decir en relación a la prueba técnica, se pueden enviar un mensaje a mi linkedin 
+  <a  href="https://www.linkedin.com/in/jhonatanruiz97">
+  <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Jhonatan Ruiz" height="30" width="30">
+  </a> 
+</p>
