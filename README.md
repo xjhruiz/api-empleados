@@ -53,7 +53,7 @@ https://api-empleados-php.jruizweb.es/api/getListEmployees
 ```
 3. Inserción de un empleado con los siguientes parámetros:
 first_name , last_name , birth_name , gender , dept_no , title , salary
-Con una petición post añadiente los siguientes datos en el body en la petición 
+Con una petición post añadiente los siguientes datos en el body de la petición 
 ```
 
 {
