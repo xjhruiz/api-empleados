@@ -46,7 +46,7 @@ No es un API REST FULL, ya que se usan parametros, y se llaman a recursos web, (
 ```
 https://api-empleados-php.jruizweb.es/api/getListEmployeesById?idEmployee=10014
 ```
-2. Mostrar Listado de empleados con el departamento, cargo y salario actuales. Ordenado por fecha de contratación y limitado a 50. Atraves de este endpoint con una petición get < a href="https://api-empleados-php.jruizweb.es/api/getListEmployees"> Listado</a>
+2. Mostrar Listado de empleados con el departamento, cargo y salario actuales. Ordenado por fecha de contratación y limitado a 50. Atraves de este endpoint con una petición get <a href="https://api-empleados-php.jruizweb.es/api/getListEmployees"> Listado</a>
 
 ```
 https://api-empleados-php.jruizweb.es/api/getListEmployees
