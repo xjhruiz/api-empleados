@@ -35,3 +35,38 @@ Para cualquier cosa que me puedan decir en relación a la prueba técnica, me pu
   <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Jhonatan Ruiz" height="30" width="30">
   </a> 
 </p>
+
+<h1> Aplicación en vivo <a href = "https://api-empleados-php.jruizweb.es" > Api-Empleado </a> </h1>
+Los endpoints del API son diferentes a los entregados, ya que se hizo de forma local con el nombre del virtual host diferentes al dominio de mi hosting. 
+Estos son los diferentes endpoint 
+No es un API REST FULL, ya que se usan parametros, y se llaman a recursos web, (web services) que devuelven un json. 
+
+1. Obtención del perfil de un empleado con el departamento, cargo y salario actuales de un empleado con este endpoint a través de una petición get y con el id del empleado (idEmployee) <a href="https://api-empleados-php.jruizweb.es/api/getListEmployeesById?idEmployee=10014"> Perfil </a>
+
+```
+https://api-empleados-php.jruizweb.es/api/getListEmployeesById?idEmployee=10014
+```
+2. Mostrar Listado de empleados con el departamento, cargo y salario actuales. Ordenado por fecha de contratación y limitado a 50. Atraves de este endpoint con una petición get < a href="https://api-empleados-php.jruizweb.es/api/getListEmployees"> Listado</a>
+
+```
+https://api-empleados-php.jruizweb.es/api/getListEmployees
+```
+3. Inserción de un empleado con los siguientes parámetros:
+first_name , last_name , birth_name , gender , dept_no , title , salary
+Con una petición post añadiente los siguientes datos en el body en la petición 
+```
+
+{
+    "firstName": "Pepe",
+    "lastName": "Sanchez",
+    "birthName": "2021-10-01",
+    "gender": "M",
+    "deptNo": "d002",
+    "title": "Engineer",
+    "salary": "21000"
+
+}
+
+https://api-empleados-php.jruizweb.es/api/addNewEmployee
+```
+
